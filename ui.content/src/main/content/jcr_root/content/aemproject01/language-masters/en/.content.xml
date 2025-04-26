@@ -4,6 +4,8 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2025-04-26T20:37:08.375+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/aemproject01/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
@@ -12,71 +14,6 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="aemproject01/components/container"
-            layout="responsiveGrid">
-            <container
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemproject01/components/container">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aemproject01/components/title"/>
-                <container
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aemproject01/components/container"
-                    layout="responsiveGrid">
-                    <teaser
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="aemproject01/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser>
-                    <teaser_copy
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="aemproject01/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy>
-                    <teaser_copy_1579324932
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="aemproject01/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy_1579324932>
-                    <helloworld
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="aemproject01/components/helloworld"
-                        text="lalala :)"/>
-                </container>
-            </container>
-        </root>
+            layout="responsiveGrid"/>
     </jcr:content>
 </jcr:root>

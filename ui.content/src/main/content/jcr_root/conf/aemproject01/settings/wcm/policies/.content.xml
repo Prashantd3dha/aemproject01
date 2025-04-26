@@ -208,10 +208,13 @@
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2025-04-26T20:34:05.718+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:AEM Project-01 - Content,/apps/aemproject01/components/form/container,group:AEM Project-01 - Structure]">
+                    components="[group:General,/apps/aemproject01/components/accordion,/apps/aemproject01/components/breadcrumb,/apps/aemproject01/components/button,/apps/aemproject01/components/carousel,/apps/aemproject01/components/container,/apps/aemproject01/components/contentfragment,/apps/aemproject01/components/contentfragmentlist,/apps/aemproject01/components/download,/apps/aemproject01/components/embed,/apps/aemproject01/components/experiencefragment,/apps/aemproject01/components/image,/apps/aemproject01/components/list,/apps/aemproject01/components/pdfviewer,/apps/aemproject01/components/progressbar,/apps/aemproject01/components/separator,/apps/aemproject01/components/tableofcontents,/apps/aemproject01/components/tabs,/apps/aemproject01/components/teaser,/apps/aemproject01/components/text,/apps/aemproject01/components/title,group:AEM Project-01 - Form,group:AEM Project-01 - Structure]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -345,7 +348,17 @@
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
-                <responsivegrid jcr:primaryType="nt:unstructured"/>
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_1745679355516
+                        jcr:lastModified="{Date}2025-04-26T20:26:52.921+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Default Template Layout Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,group:AEM Project-01 - Content,group:AEM Project-01 - Form,group:AEM Project-01 - Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1745679355516>
+                </responsivegrid>
             </components>
         </foundation>
     </wcm>
